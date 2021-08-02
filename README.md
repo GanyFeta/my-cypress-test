@@ -2,4 +2,4 @@
 
 - e2e Testing Setup with NPM Script and Cypress
 - enforce code formatting with Prettier
-- static code linting with eslint# Test Repo for Cypress
+- static code linting with eslint
