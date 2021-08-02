@@ -6,7 +6,7 @@ addButton.addEventListener("click", addTodo);
 
 function addTodo() {
   const newTodo = input.value;
-  const newLi = document.createElement("li")
+  const newLi = document.createElement("li");
   newLi.innerText = newTodo;
 
   list.appendChild(newLi);
