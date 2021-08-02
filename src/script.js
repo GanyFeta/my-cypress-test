@@ -5,9 +5,9 @@ const list = document.querySelector("#list");
 addButton.addEventListener("click", addTodo);
 
 function addTodo() {
-	const newTodo = input.value;
-	const newLi = document.createElement("li");
-	newLi.innerText = newTodo;
+  const newTodo = input.value;
+  const newLi = document.createElement("li");
+  newLi.innerText = newTodo;
 
-	list.appendChild(newLi);
+  list.appendChild(newLi);
 }
